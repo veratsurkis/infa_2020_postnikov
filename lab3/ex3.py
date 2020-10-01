@@ -142,6 +142,7 @@ yellow = (255, 255, 100)
 backcolor = (0, 255, 255)
 zoom = 12
 
+# Background
 main_background = pygame.display.set_mode((40*zoom, 60*zoom))
 main_background.fill(backcolor)
 rect(main_background, white, (0, 34*zoom, 40*zoom, 60*zoom))
